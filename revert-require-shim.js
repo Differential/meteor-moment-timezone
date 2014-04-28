@@ -12,6 +12,6 @@
     this.module = this.__AC_OLD_MODULE;
     delete this.__AC_OLD_MODULE;
   } else {
-    delete this.module;
+    this.module = undefined;
   }
 }).call(this);
