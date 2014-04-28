@@ -5,7 +5,7 @@
     this.require = this.__AC_OLD_REQUIRE;
     delete this.__AC_OLD_REQUIRE;
   } else {
-    delete this.require;
+    this.require = undefined;
   }
 
   if (this.__AC_OLD_MODULE) {
